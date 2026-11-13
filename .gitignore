@@ -1,0 +1,23 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Frontend
+node_modules/
+dist/
+
+# Backend
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Uploaded documents and vectors
+uploads/
+chroma_data/
+
+# Local files
+*.log
+.DS_Store
